@@ -1,0 +1,99 @@
+ /* Variables */
+/* Mixins */
+/* Styles */
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+  }
+  
+  .navbar {
+    background-color: #a76edc;
+  }
+  
+  .navbar-brand img {
+    max-width: 100%;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff; /* Customize the color of the navbar toggler icon */
+  }
+  
+  .navbar-nav .nav-item {
+    margin: 0 0.5rem;
+  }
+  
+  .container.my-5 {
+    text-align: center;
+  }
+  
+  /* Additional Styles */
+  .bg-light {
+    background-color: #f8f9fa; /* Define the light background color */
+  }
+  
+  /* Customize Welcome Section */
+  .container.my-5 h1 {
+    color: #ff5733;
+  }
+  
+ 
+  /* Customize About Us Section */
+  .container.my-5 h2 {
+    color: #ff5733;
+  }
+  
+ 
+  /* Customize Footer */
+  footer {
+    background-color: #e37c7c;
+    color: #fff;
+  }/*# sourceMappingURL=main.css.map */
+ /* Custom CSS for the menu section */
+ .menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-price {
+    color: #888;
+}
+
+.order-btn {
+    width: 100%;
+}
+
+.red-btn {
+    background-color: #FF5733;
+    border-color: #FF5733;
+    color: white;
+}
