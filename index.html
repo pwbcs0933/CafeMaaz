@@ -396,6 +396,83 @@
             </button>
         </div>
     </section>
+
+ <style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .welcome-section {
+        background-color: #f7f7f7;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cafe-logo {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .cafe-logo img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .welcome-text {
+        font-size: 2.5rem;
+        color: #333333;
+        margin-bottom: 20px;
+    }
+
+    .button {
+        background-color: #ff914d;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.2rem;
+        margin-top: 20px;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .button:hover {
+        background-color: #ffad80;
+    }
+</style>
+</head>
+<body>
+
+<div class="welcome-section">
+    <div class="cafe-logo">
+        <img src="logo.png" alt="Cafe Logo">
+    </div>
+    <h1 class="welcome-text">Welcome to Our Cafe</h1>
+    <p>We Warm Welcome To You In Your Cafe</p>
+    <button class="button">Explore Our Menu</button>
+</div>
+
+<script>
+    const button = document.querySelector('.button');
+    button.addEventListener('click', () => {
+        window.location.href = 'index.html';
+    });
+</script>
     
     
     <style>
